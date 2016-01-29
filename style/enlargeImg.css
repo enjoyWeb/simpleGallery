@@ -19,6 +19,8 @@ div {
 *, *:before, *:after {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    -ms-box-sizing: border-box;
     box-sizing: border-box;
 }
 ul,li {
@@ -541,7 +543,6 @@ Pagination Styles
 	box-shadow: none;
 	margin: 0;
 	padding: 0;
-	border: 5px solid #73B4E0;
 	opacity:1;
 }
 .swiper-nav .active-nav .angle {
@@ -567,6 +568,7 @@ Pagination Styles
 	max-height: 75px;
 }
 .picGalleryWrapper .swiper-nav .active-nav img {
+	border: 5px solid #73B4E0;
 	max-width: 68px;
 	max-height: 68px;
 }
